@@ -1,0 +1,6 @@
+git+https://github.com/APS3C/client-python@master#egg=pycti
+parsuricata==0.3.2
+plyara==2.1.1
+sigmatools==0.19.1
+jsonpatch==1.32
+eql==0.9.13
