@@ -1262,6 +1262,9 @@ const checkAttributeConsistency = (entityType, key) => {
   //if (!R.includes(masterKey, schemaTypes.getAttributes(entityType))) {
   //  throw FunctionalError(`This attribute key ${key} is not allowed on the type ${entityType}`);
   //}
+  if (!R.includes(masterKey, schemaTypes.getAttributes(entityType))) {
+    throw FunctionalError(`This attribute key ${key} is not allowed on the type ${entityType}`);
+  }
 };
 const innerUpdateAttribute = (instance, rawInput) => {
   const { key } = rawInput;

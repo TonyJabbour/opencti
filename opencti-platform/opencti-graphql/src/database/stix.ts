@@ -1122,7 +1122,6 @@ export const buildInputDataFromStix = (stix: StixObject): unknown => {
       x_opencti_abuseipdb_confidence: ipv4.x_opencti_abuseipdb_confidence,
       x_opencti_abuseipdb_country: ipv4.x_opencti_abuseipdb_country,
       x_opencti_abuseipdb_isp: ipv4.x_opencti_abuseipdb_isp,
-
     };
     return { ...buildObservableInputFromExtension(ipv4), IPv4Addr: input } as MutationStixCyberObservableAddArgs;
   }

@@ -6591,6 +6591,7 @@ type IPv4Addr implements BasicObject & StixObject & StixCoreObject & StixCyberOb
   ): StixCoreRelationshipConnection
   # StixCyberObservable
   x_opencti_score: Int
+  x_opencti_description: String
   observable_value: String!
   indicators(first: Int): IndicatorConnection
   stixCyberObservableRelationships(
