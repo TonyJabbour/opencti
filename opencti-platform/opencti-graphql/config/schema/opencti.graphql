@@ -6619,7 +6619,6 @@ type IPv4Addr implements BasicObject & StixObject & StixCoreObject & StixCyberOb
   ): StixCyberObservableRelationshipConnection
   # IPv4Addr
   value: String
-  x_opencti_description: String
   x_opencti_abuseipdb_confidence: String
   x_opencti_abuseipdb_country: String
   x_opencti_abuseipdb_isp: String
